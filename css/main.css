@@ -1,0 +1,237 @@
+/* Fonts & Colors
+
+font-family: 'Cookie', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+pink: #dc8282;
+orange: #e4a872;
+yellow (background 2): #e2d5a9;
+green (background): #a0b8a0
+blue (text): #3f5b67;
+dark blue: #0e2037;
+
+*/
+
+
+/***** BASE STYLES *****/
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #3f5b67;
+  background-color: #a0b8a0;
+}
+
+h1 {
+  font-family: 'Cookie', cursive;
+  padding-left: 75px;
+  color: #3f5b67;
+  font-size: 36px;
+}
+
+h3, h4, h5 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 600;
+  padding-top: 35px;
+  text-align: center;
+}
+
+h4, h5{
+ line-height: 32px;
+ margin: 0 auto;
+ text-align: center;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 26px;
+  padding-left: 75px;
+}
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  margin: 0 auto;
+  float: left;
+}
+
+.third-width {
+  width: 32%;
+  display: inline-block;
+  align-items: center;
+  justify-content: center
+}
+
+/***** HEADER *****/
+header {
+  height: 600px;
+}
+
+#headline {
+  position: fixed;
+  top:0px;
+  background-color: #e2d5a9;
+  width: 100%;
+  height: 80px;
+  overflow: visible; /*change to hidden after figuring out responsive*/
+}
+
+#container {
+  background: url('../img/background.png');
+  margin-top: 75px;
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  display: block;
+  background-position:center;
+  background-size:cover;
+}
+
+header h2 {
+  clear: both;
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  color: #dc8282;
+  padding-top: 20%;
+  padding-left: 75px;
+  font-weight: 600;
+}
+
+header h2 span {
+  color: #3f5b67;
+  font-style: italic;
+}
+
+/***** NAV *****/
+nav {
+  float: right;
+  padding-left: 200px;
+}
+
+nav ul li{
+  display: inline-block;
+  padding-top: 15px;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: #3f5b67;
+  padding-left: 45px;
+}
+
+/***** ABOUT *****/
+#about {
+  height: 550px;
+  width: 100%;
+  padding-top: 50px;
+}
+
+#about h2  {
+  clear: both;
+  font-family: 'Raleway', sans-serif;
+  font-size:28px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#about h2 span{
+  font-style: italic;
+  font-weight: 600;
+}
+
+#about img {
+  width: 275px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 265px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #ebebeb;
+}
+
+#about .third-width {
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align: middle;
+}
+
+ /****** portfolio *****/
+ #portfolio {
+   clear: both;
+   height: 800px;
+   width: 100%;
+   background-color:#ebebeb;
+ }
+
+#portfolio .half-width {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#portfolio img {
+  border: 3px solid #a0b8a0;
+  margin-left: 75px;
+  margin-right: 75px;
+  height: 300px;
+}
+
+#portfolio p {
+  font-family: 'Raleway', sans-serif;
+  padding: 0 75px;
+}
+
+ /****** CONTACT *****/
+
+#contact, #copyright, .third-width {
+  text-align: center;
+  vertical-align: top;
+}
+
+#contact img {
+  height: 20px;
+}
+
+#contact ul {
+  list-style: none;
+}
+
+#contact ul li {
+   display: inline-block;
+}
+
+#contact ul img {
+  padding-right: 15px;
+}
+
+#contact p a{
+    text-decoration: none;
+    color: inherit;
+}
